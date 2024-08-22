@@ -1,1 +1,1 @@
-Created with the help of GitHub Copilot.
+A simple snake game in javascript
