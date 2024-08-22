@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg, #1e3c72, #2a5298);
+            margin: 0;
+            font-family: 'Changa One', sans-serif;
+        }
+        canvas {
+            display: block;
+            background-color: #000;
+            border: 5px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        #score {
+            color: #FFF;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .control-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #fff;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            margin: 5px;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="score">Score: 0</div>
+    <button id="startButton" class="control-button">Click to Start</button>
+    <button id="pauseButton" class="control-button" style="display: none;">Pause</button>
+    <button id="resumeButton" class="control-button" style="display: none;">Resume</button>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <script src="snake.js"></script>
+</body>
+</html>
