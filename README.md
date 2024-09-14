@@ -1,1 +1,1 @@
-A simple snake game in javascript
+A simple snake game in javascript. I built this with assistance from GitHub Copilot under my work GitHub account. I liked it somuch, I decided to fork off a personal copy for future enhancement and demonstartion purposes.
